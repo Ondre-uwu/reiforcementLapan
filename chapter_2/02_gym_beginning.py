@@ -8,7 +8,7 @@ def run_experiment():
     total_steps = 0
     obs = env.reset()
     while True:
-        action = env.action_space.sample()  # get random sample from action space
+        action = 1 #env.action_space.sample()  # get random sample from action space
         obs, reward, done, _, _ = env.step(action)
         total_reward += reward
         total_steps += 1
