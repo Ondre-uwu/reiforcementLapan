@@ -1,7 +1,8 @@
 import gym
 import numpy as np
 
-if __name__ == "__main__":
+
+def run_experiment():
     env = gym.make('CartPole-v1')
     total_reward = 0
     total_steps = 0
@@ -14,3 +15,11 @@ if __name__ == "__main__":
         if done:
             break
     print(f"Total reward: {total_reward}; Steps done: {total_steps}")
+    return total_reward
+
+
+if __name__ == "__main__":
+    results = []
+    for _ in range(1000):
+        results.append(run_experiment())
+    print(np.min(results), np.max(results), np.mean(results), np.median(results))
