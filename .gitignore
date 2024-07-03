@@ -1,0 +1,22 @@
+# Bytecode files
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# PyCharm project settings
+.idea/
+
+# macOS specific files
+.DS_Store
+
+# Environment variables and secrets
+.env
+.secret
+
+# Poetry lock file (optional, consider including for reproducible builds)
+# poetry.lock
