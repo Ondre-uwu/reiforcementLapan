@@ -1,2 +1,6 @@
 gym
 numpy
+torch
+torchvision
+torchaudio
+black
