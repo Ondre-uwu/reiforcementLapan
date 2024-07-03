@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87192153-678e-4207-86ff-3140d3622f98" name="Changes" comment="feat: Make firs 2 subchapters from chapter 2">
+    <list default="true" id="87192153-678e-4207-86ff-3140d3622f98" name="Changes" comment="fix: created new branch and add multiple experiments">
+      <change afterPath="$PROJECT_DIR$/chapter_2/03_gym_wrappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/reinforcementLapan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reinforcementLapan.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_2/02_gym_beginning.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_2/02_gym_beginning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +25,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2ihEj10uEmDxxDg0uBnrziVIAm1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,6 +42,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.01_anatomy.executor": "Run",
     "Python.02_gym_beginning.executor": "Run",
+    "Python.03_gym_wrappers.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "chapter__2",
@@ -48,6 +51,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -56,7 +60,7 @@
       <recent name="$PROJECT_DIR$/chapter_2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.03_gym_wrappers">
     <configuration name="02_gym_beginning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="reinforcementLapan" />
       <option name="ENV_FILES" value="" />
@@ -80,8 +84,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="03_gym_wrappers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="reinforcementLapan" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_2/03_gym_wrappers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03_gym_wrappers" />
         <item itemvalue="Python.02_gym_beginning" />
       </list>
     </recent_temporary>
@@ -101,7 +129,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719934540550</updated>
-      <workItem from="1719934596219" duration="3462000" />
+      <workItem from="1719934596219" duration="4880000" />
+      <workItem from="1719995103423" duration="59000" />
+      <workItem from="1719995166978" duration="3006000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Make firs 2 subchapters from chapter 2">
       <option name="closed" value="true" />
@@ -119,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719957345562</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix: created new branch and add multiple experiments">
+      <option name="closed" value="true" />
+      <created>1719957607455</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719957607455</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,19 +183,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="chapter_2" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -166,10 +192,12 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat: Make firs 2 subchapters from chapter 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Make firs 2 subchapters from chapter 2" />
+    <MESSAGE value="fix: created new branch and add multiple experiments" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: created new branch and add multiple experiments" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/reinforcementLapan$01_anatomy.coverage" NAME="01_anatomy Coverage Results" MODIFIED="1719934655732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/reinforcementLapan$03_gym_wrappers.coverage" NAME="03_gym_wrappers Coverage Results" MODIFIED="1720003441552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
     <SUITE FILE_PATH="coverage/reinforcementLapan$02_gym_beginning.coverage" NAME="02_gym_beginning Coverage Results" MODIFIED="1719957336384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
   </component>
 </project>
